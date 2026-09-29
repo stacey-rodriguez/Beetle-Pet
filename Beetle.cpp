@@ -284,6 +284,7 @@ void Beetle::printEnding() const {
 
 std:: string stageToString(LifeStage stage){
     switch(stage){
+        //switch
         case LifeStage::Egg: return "Egg";
         case LifeStage::Larva_L1: return "Larva(L1)";
         case LifeStage::Larva_L2: return "Larva(L2)";
